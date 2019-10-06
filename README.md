@@ -1,6 +1,6 @@
 # Sistema de votação Desafio Cultural
 
-<img src="https://github.com/LincolnUehara/dc-voting/blob/master/git-images/func_rede.gif" width="256">
+<img src="https://github.com/LincolnUehara/dc-voting/blob/master/git-images/func_rede.gif" width="256" align="center">
 
 Esse sistema foi projetado para demonstração para a palestra _"Um estudo de caso de software e mercado 4.0"_ na _Semana da Ciência e Tecnologia_ da UNESP-FEG no dia 03/10/2019.
 Teve como objetivo demonstrar como diferentes linguagens e estruturas de programação podem se interagir num sistema, e entender os seus desafios e as dificuldades em nosso mercado 4.0.
