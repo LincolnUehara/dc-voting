@@ -5,7 +5,7 @@
 Esse sistema foi projetado para demonstração para a palestra _"Um estudo de caso de software e mercado 4.0"_ na _Semana da Ciência e Tecnologia_ da UNESP-FEG no dia 03/10/2019.
 Teve como objetivo demonstrar como diferentes linguagens e estruturas de programação podem se interagir num sistema, e entender os seus desafios e as dificuldades em nosso mercado 4.0.
 
-### O caso em estudo - Desafio Cultural da FEG
+## O caso em estudo - Desafio Cultural da FEG
 
 * **Descrição do evento**: O Desafio Cultural é um evento no qual cada curso monta a sua banda, tocando no evento de 5 a 7 músicas. No final, jurados selecionados avaliam o desempenho, dão as suas notas e escolhem a banda vencedora da noite.
 
@@ -19,7 +19,7 @@ Teve como objetivo demonstrar como diferentes linguagens e estruturas de program
 2. A página só é fornecida localmente, ou seja, somente na área que o wifi do Raspberry abranger;
 3. Não precisa de login e senha, o rastreamento do usuário é feito via MAC address do smartphone.
 
-### Como funciona
+## Como funciona
 
 ![Figura do Sistema](https://github.com/LincolnUehara/dc-voting/blob/master/git-images/func_sistema.jpeg)
 
@@ -27,7 +27,7 @@ Teve como objetivo demonstrar como diferentes linguagens e estruturas de program
 2. Um binário pega os votos válidos e transcreve a média em forma de iluminação LED.
 3. É feita uma comunicação serial entre o PC e o Raspberry com fins de desenvolvimento, para executar alguns comandos de limpeza de tabelas SQL, cálculo dos votos, etc.
 
-### Instalação
+## Instalação
 
 Os seguintes passos foram feitos com RaspberryPi Zero W.
 
@@ -79,7 +79,7 @@ sudo ./install.sh
 
 9. Digite o comando `sudo reboot` novamente. Dessa vez a rede _Desafio Cultural_ ficará visível no smartphone e já poderá começar a votar.
 
-### Comandos/binários/scripts disponíveis
+## Comandos/binários/scripts disponíveis
 
 Os arquivos estarão em `/home/pi`, devem ser executadas da forma `./nome_do_comando`.
 
@@ -89,7 +89,7 @@ Os arquivos estarão em `/home/pi`, devem ser executadas da forma `./nome_do_com
 * `sort-mac`: Serve para sortear um MAC address dentre os que votaram.
 * `vote-status`: Serve para mostrar o status dos votos das tabelas.
 
-### Troubleshooting
+## Troubleshooting
 
 * _O arquivo que criei não consegue fazer alterações, inserir dados nas tabelas do banco, acender LEDS..._: Provavelmente é problema de permissão do arquivo. Você pode digitar os comandos `sudo chmod 777 arquivo_em_questao` e `sudo chown root:root arquivo_em_questao`. Veja na seção _Referências_ o link relativo a _chmod_ e _chown_.
 
@@ -99,7 +99,7 @@ Os arquivos estarão em `/home/pi`, devem ser executadas da forma `./nome_do_com
 
 ![Foto do shield](https://github.com/LincolnUehara/dc-voting/blob/master/git-images/fotos_shield.jpeg)
 
-### ToDo List
+## ToDo List
 
 Somente algumas ideias:
 
@@ -113,7 +113,7 @@ Somente algumas ideias:
 
 - [ ] Uma visualização em hardware da contagem dos votos utilizando algo mais eleborado como um painel de LEDs, como mostrado [nesse vídeo](https://www.youtube.com/watch?v=n8O44UIK2FM) - uma fina camada de isopor ou de papel pode dar um efeito melhor comose pode ver [neste outro vídeo](https://www.youtube.com/watch?v=68GT5chAkD0). É possível mostrar propaganda de repúblicas durante o show por este meio.
 
-### Referências
+## Referências
 
 * [Building a Rogue Captive Portal for Raspberry Pi Zero W - Braindead Security](https://braindead-security.blogspot.com/2017/06/building-rogue-captive-portal-for.html)
 
