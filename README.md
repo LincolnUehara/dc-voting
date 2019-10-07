@@ -1,6 +1,8 @@
 # Sistema de votação Desafio Cultural
 
-<img src="https://github.com/LincolnUehara/dc-voting/blob/master/git-images/func_rede.gif" width="256" align="center">
+<p align="center">
+<img src="https://github.com/LincolnUehara/dc-voting/blob/master/git-images/func_rede.gif" width="256">
+</p>
 
 Esse sistema foi projetado para demonstração para a palestra _"Um estudo de caso de software e mercado 4.0"_ na _Semana da Ciência e Tecnologia_ da UNESP-FEG no dia 03/10/2019.
 Teve como objetivo demonstrar como diferentes linguagens e estruturas de programação podem se interagir num sistema, e entender os seus desafios e as dificuldades em nosso mercado 4.0.
@@ -15,8 +17,8 @@ Teve como objetivo demonstrar como diferentes linguagens e estruturas de program
 
 * **Vantagens do sistema**:
 
-1. Não precisa digitar nada no browser, só alguns toques no smartphone para acessar a rede;
-2. A página só é fornecida localmente, ou seja, somente na área que o wifi do Raspberry abranger;
+1. Não precisa digitar nada no browser, nem instalar aplicativos, só alguns toques para acessar a página;
+2. A página só é fornecida localmente, ou seja, somente na área que o wifi do Raspberry abranger. Em outras palavras, a pessoa deve estar presente no evento;
 3. Não precisa de login e senha, o rastreamento do usuário é feito via MAC address do smartphone.
 
 ## Como funciona
@@ -112,6 +114,8 @@ Somente algumas ideias:
 - [ ] Retorno de que a pessoa já votou para aquela banda.
 
 - [ ] Uma visualização em hardware da contagem dos votos utilizando algo mais eleborado como um painel de LEDs, como mostrado [nesse vídeo](https://www.youtube.com/watch?v=n8O44UIK2FM) - uma fina camada de isopor ou de papel pode dar um efeito melhor comose pode ver [neste outro vídeo](https://www.youtube.com/watch?v=68GT5chAkD0). É possível mostrar propaganda de repúblicas durante o show por este meio.
+
+- [ ] Utilizando técnicas de estatística/data science/inteligência artificial, corrigir o valor do voto devido às influências do álcool e do cansaço da pessoa que está votando. Outros _inputs_ poderiam ser adicionado ao cálculo como a quantidade de álcool consumido no evento.
 
 ## Referências
 
