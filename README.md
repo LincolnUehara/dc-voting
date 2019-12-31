@@ -1,5 +1,8 @@
 # Sistema de votação Desafio Cultural
 
+[![License](https://img.shields.io/github/license/LincolnUehara/dc-voting)](https://github.com/LincolnUehara/dc-voting/blob/master/LICENSE)
+![Maintenance](https://img.shields.io/maintenance/no/2019)
+
 <p align="center">
 <img src="https://github.com/LincolnUehara/dc-voting/blob/master/git-images/func_rede.gif" width="256">
 </p>
